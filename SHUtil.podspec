@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = 'SHUtil'
-    s.version      = '0.0.2'
+    s.version      = '0.0.3'
     s.summary      = '常用工具集合'
     s.homepage     = 'https://github.com/chengaojian/SHUtil.git'
     s.license      = 'MIT'
