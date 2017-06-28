@@ -15,7 +15,6 @@
 		042C7C311EDFDF58004E68EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042C7C2F1EDFDF58004E68EA /* LaunchScreen.storyboard */; };
 		042C7C3C1EDFDF58004E68EA /* SHUtilExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 042C7C3B1EDFDF58004E68EA /* SHUtilExampleTests.m */; };
 		042C7C471EDFDF58004E68EA /* SHUtilExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 042C7C461EDFDF58004E68EA /* SHUtilExampleUITests.m */; };
-		0431E2491F034F31008FB783 /* SHUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0431E2481F034F31008FB783 /* SHUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +51,6 @@
 		042C7C421EDFDF58004E68EA /* SHUtilExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SHUtilExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		042C7C461EDFDF58004E68EA /* SHUtilExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHUtilExampleUITests.m; sourceTree = "<group>"; };
 		042C7C481EDFDF58004E68EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0431E2471F034F31008FB783 /* SHUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHUtil.h; sourceTree = "<group>"; };
-		0431E2481F034F31008FB783 /* SHUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHUtil.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +101,6 @@
 		042C7C201EDFDF58004E68EA /* SHUtilExample */ = {
 			isa = PBXGroup;
 			children = (
-				0431E2461F034F31008FB783 /* SHUtil */,
 				042C7C241EDFDF58004E68EA /* AppDelegate.h */,
 				042C7C251EDFDF58004E68EA /* AppDelegate.m */,
 				042C7C271EDFDF58004E68EA /* ViewController.h */,
@@ -142,15 +138,6 @@
 				042C7C481EDFDF58004E68EA /* Info.plist */,
 			);
 			path = SHUtilExampleUITests;
-			sourceTree = "<group>";
-		};
-		0431E2461F034F31008FB783 /* SHUtil */ = {
-			isa = PBXGroup;
-			children = (
-				0431E2471F034F31008FB783 /* SHUtil.h */,
-				0431E2481F034F31008FB783 /* SHUtil.m */,
-			);
-			path = SHUtil;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,7 +276,6 @@
 			files = (
 				042C7C291EDFDF58004E68EA /* ViewController.m in Sources */,
 				042C7C261EDFDF58004E68EA /* AppDelegate.m in Sources */,
-				0431E2491F034F31008FB783 /* SHUtil.m in Sources */,
 				042C7C231EDFDF58004E68EA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
